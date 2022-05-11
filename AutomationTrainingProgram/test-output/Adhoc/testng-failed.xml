@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Adhoc]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionOfChrome(failed)">
+    <parameter name="browsers" value="Chrome"/>
+    <classes>
+      <class name="PageObjectModel.NewTest">
+        <methods>
+          <include name="f"/>
+          <include name="Browsers"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TextVarificationMethod"/>
+        </methods>
+      </class> <!-- PageObjectModel.NewTest -->
+    </classes>
+  </test> <!-- RegressionOfChrome(failed) -->
+  <test thread-count="5" name="RegressionOfFirefox(failed)">
+    <parameter name="browsers" value="Firefox"/>
+    <classes>
+      <class name="PageObjectModel.NewTest">
+        <methods>
+          <include name="f"/>
+          <include name="Browsers"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TextVarificationMethod"/>
+        </methods>
+      </class> <!-- PageObjectModel.NewTest -->
+    </classes>
+  </test> <!-- RegressionOfFirefox(failed) -->
+  <test thread-count="5" name="RegressionOfEdge(failed)">
+    <parameter name="browsers" value="Edge"/>
+    <classes>
+      <class name="PageObjectModel.NewTest">
+        <methods>
+          <include name="f"/>
+          <include name="Browsers"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TextVarificationMethod"/>
+        </methods>
+      </class> <!-- PageObjectModel.NewTest -->
+    </classes>
+  </test> <!-- RegressionOfEdge(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->
